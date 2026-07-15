@@ -209,6 +209,7 @@
   padding: 3px 4px;
   border: 1px solid #ddd;
   text-align: center;
+  color: #000;
 }
 
 .tabla-boton thead th {
@@ -514,8 +515,8 @@
 }
 
 .terminos, .contacto {
-  color: #bbb;
-  font-size: 0.9rem;
+  color: #000000;
+  font-size: 0.5rem;
   padding: 5px;
 }
 
@@ -550,5 +551,47 @@
   background: #00ff6a;
   color: #000;
 }
+
+
+  .link-container-guia {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .boton-enlace-guia,
+  .boton-copiar-guia {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .boton-enlace-guia:hover,
+  .boton-copiar-guia:hover {
+    background: linear-gradient(135deg, #0056b3, #003f7f);
+    transform: scale(1.05);
+  }
+  
+  .boton-copiar-guia {
+    background: linear-gradient(135deg, #28a745, #1e7e34);
+  }
+  
+  .boton-copiar-guia:hover {
+    background: linear-gradient(135deg, #1e7e34, #155d27);
+  }
+
+  .direccion-web-guia{
+    font-size: 14px;
+    color: #000;
+    text-align: center;
+  }
 
 

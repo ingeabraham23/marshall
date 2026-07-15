@@ -24,6 +24,7 @@ const navigationItems = [
   { path: '/curso', icon: faPlay, label: 'Curso' },
   { path: '/rol', icon: faTableList, label: 'Rol' },
   { path: '/bitacora', icon: faTableCells, label: 'Bitacora' },
+  { path: '/simbolos', icon: faTableCells, label: 'Simbolos' },
 
 ];
 

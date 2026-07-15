@@ -13,6 +13,7 @@ import TablaCodigos from "./components/TablaCodigos";
 import 'react-perfect-scrollbar/dist/css/styles.css';
 import TablaRutas from "./components/TablaRutas";
 import BitacoraTransporte from "./components/BitacoraTransporte";
+import Simbolos from "./components/Simbolos";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
             <Route path="/curso" element={<Curso />} />
             <Route path="/rol" element={<TablaRutas />} />
             <Route path="/bitacora" element={<BitacoraTransporte />} />
+            <Route path="/simbolos" element={<Simbolos />} />
           </Routes>
         </div>
     </HashRouter>
