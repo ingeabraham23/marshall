@@ -213,6 +213,9 @@ const Codigos = () => {
   //02 DE JULIO 2026
   const tabla0c390486e694Ref2 = useRef(null); //1000
 
+  //13 DE JULIO 2026
+  const tablae804550b65f4 = useRef(null); //1000
+
   
 
 
@@ -5592,14 +5595,14 @@ const Codigos = () => {
           <tr>
             <td className="celda-codigos-fecha">01-07-2026</td>
           </tr>
-{/*           <tr>
+           <tr>
             <td className="celda-codigos-imagen">
               <img
                 style={{ width: "auto", height: "50px" }}
-                src="./codigos/amotac.png"
+                src="./codigos/ruta02.png"
               />
             </td>
-          </tr> */}
+          </tr>
           <tr>
             <td className="celda-codigos-version">(version 5.0)</td>
           </tr>
@@ -5630,7 +5633,7 @@ const Codigos = () => {
 
         <div className="separador-codigos-joyvolt"></div>
         <span className="detalle-codigos">(Vendedor Desconocido)</span>
-        <span className="detalle-codigos">(Ruta 2 unidad 101)</span>
+        <span className="detalle-codigos">(Ruta 1 unidad 177)</span>
         <span className="detalle-codigos">(version desconocida)</span>
         <table ref={tabla0c390486e694Ref2} className="tabla-codigos">
           <tr>
@@ -5639,14 +5642,14 @@ const Codigos = () => {
           <tr>
             <td className="celda-codigos-fecha">15-08-2025</td>
           </tr>
-{/*           <tr>
+           <tr>
             <td className="celda-codigos-imagen">
               <img
                 style={{ width: "auto", height: "50px" }}
-                src="./codigos/amotac.png"
+                src="./codigos/ruta01.png"
               />
             </td>
-          </tr> */}
+          </tr>
           <tr>
             <td className="celda-codigos-version">(version 4.1)</td>
           </tr>
@@ -5661,6 +5664,45 @@ const Codigos = () => {
         </table>
         <button
           onClick={() => capturarTablaLarga(tabla0c390486e694Ref2.current)}
+          className="boton-descarga-codigos"
+        >
+          Descargar Imagen
+        </button>
+
+
+        <div className="separador-codigos-joyvolt"></div>
+        <span className="detalle-codigos">(Vendedor Desconocido)</span>
+        <span className="detalle-codigos">(Ruta 2 unidad 101)</span>
+        <span className="detalle-codigos">(version desconocida)</span>
+        <table ref={tablae804550b65f4} className="tabla-codigos">
+          <tr>
+            <td className="celda-codigos-serie-largo">SE-ne804550b65f4</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-fecha">13-07-2026</td>
+          </tr>
+           <tr>
+            <td className="celda-codigos-imagen">
+              <img
+                style={{ width: "auto", height: "50px" }}
+                src="./codigos/ruta02.png"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-version">(version 4.1)</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-img">
+              <img
+                style={{ width: "95%", height: "auto" }}
+                src="./codigos/18 JULIO 2026/13-07-2026 SE-ne804550b65f4.png"
+              />
+            </td>
+          </tr>
+        </table>
+        <button
+          onClick={() => capturarTablaLarga(tablae804550b65f4.current)}
           className="boton-descarga-codigos"
         >
           Descargar Imagen
